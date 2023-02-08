@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ai-assistant-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /ai-assistant
+        pathType: Prefix
+        backend:
+          service:
+            name: ai-assistant-service
+            port:
+              name: http

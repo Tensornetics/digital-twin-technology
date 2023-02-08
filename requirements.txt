@@ -1,0 +1,10 @@
+numpy==1.19.4
+openai==1.2.0
+nvidia-tensorflow-cpu==2.4.0
+nvidia-tensorflow-gpu==2.4.0
+tensorflow==2.4.0
+flask==1.1.2
+nemo-toolkit==2.0.0
+nemo-asr==2.0.0
+nemo-nlp==2.0.0
+nemo-tts==2.0.0

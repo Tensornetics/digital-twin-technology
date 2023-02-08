@@ -1,7 +1,26 @@
-# digital-twin-technology
+
+# Digital Twin Technology by Tensornetics LLC
+
+This repository contains the code for a digital twin technology solution built by Tensornetics LLC. The technology integrates the OpenAI API and NVIDIA NEMO for ASR, NLP, and TTS, along with RIVA for ASR.
+
+## Requirements
+The following packages are required to run the technology:
+
+- openai
+- nvidia-nemo
+- riva
+
+These packages can be installed using pip by running the following command:
+```
+pip install -r requirements.txt
+```
+
+## Deployment
+
+The deployment of the technology is managed using Kubernetes. The deployment specifications are defined in the deployment folder. The kustomization.yaml file is used to configure and manage the deployment.
 
 ```
-.
+digital-twin-technology
 |-- api/
 |   |
 |   |-- openai/
